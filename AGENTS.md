@@ -177,10 +177,12 @@ This policy applies to new commits from this point forward.
 
 ## Verification
 
-At the beginning and end of a task, verify that source originals have not changed since registration:
+Git already tracks whether a registered original changed. At the end of a task, confirm that none was modified:
 
 ```bash
-git hash-object <each registered source path from raw/sources.md>
+git status --porcelain raw/
 ```
 
-Compare the results with the `Hash` column in `raw/sources.md`. If any value differs, the original changed. Do not update the Wiki automatically; mark the relevant page `REVIEW_REQUIRED`.
+Any entry under `raw/` for an already registered source means the original changed. Do not update the Wiki automatically; restore the original and mark the relevant page `REVIEW_REQUIRED`. To check whether an earlier commit modified an original, use `git log --oneline -- raw/`.
+
+Do not re-verify every registered hash against `raw/sources.md` on each task. Git detects the same modification at no cost, and the manual comparison also produces false mismatches from line-ending normalization. The `Hash` column remains in the registry as the provenance record of the exact version that was ingested; it is not a per-task checklist.
