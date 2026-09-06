@@ -1,1 +1,4 @@
 * text=auto eol=lf
+
+# Registered originals are immutable byte records. Never let Git rewrite them.
+raw/** -text
