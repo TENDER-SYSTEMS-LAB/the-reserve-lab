@@ -1,7 +1,7 @@
 ---
 status: confirmed
 attribution: user-confirmed
-updated: 2026-09-06
+updated: 2026-09-07
 sources:
   - SRC-2026-09-06-project-naming-and-public-language
 ---
@@ -36,4 +36,4 @@ Single-source dependency: this decision is supported by the naming export.
 
 ## Sources
 
-- [SRC-2026-09-06-project-naming-and-public-language](../../raw/conversations/2026-09-06-project-naming-and-public-language.md)
+- [[SRC-2026-09-06-project-naming-and-public-language]] — [raw/conversations/2026-09-06-project-naming-and-public-language.md](../../raw/conversations/2026-09-06-project-naming-and-public-language.md)

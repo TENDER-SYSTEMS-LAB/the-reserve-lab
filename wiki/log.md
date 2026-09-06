@@ -34,3 +34,21 @@ Append new entries after all existing entries. Do not rewrite past entries.
 - Updated overview, current state, and the index together. Ingestion authorization is recorded separately from adopting an institution, scope, currency, rule, or implementation plan. Existing name and bio decisions remain unchanged; no candidate was selected or rejected by this ingestion.
 - Verified all three previously registered source hashes before writes and all six registered hashes after synthesis. Both copied files remain byte-identical to their supplied originals. Checked Wiki/source links, one index entry per Wiki page, attribution, and Git whitespace; no findings. The earlier LONGING CSV normalization signal remains a caveat in the report, not a new THE RESERVE source mismatch.
 - Appended this entry without altering prior log content. No artwork implementation, issue creation, commit, or push was performed.
+
+## [2026-09-06] lint | Align source and index links with LONGING
+
+- Wiki `## Sources` entries used per-page relative Markdown links to the raw files. Rewrote them as `[[SRC-...]] — raw/<type>/<file>.md`, the form `schema.md` documents and LONGING uses, so pages resting on the same original share a link.
+- `wiki/index.md`: added the standard page frontmatter it was missing and converted its internal page links to `[[wikilink]]` form. Repository-control links to `../README.md`, `../AGENTS.md`, `../schema.md`, and the raw files remain Markdown links, as in LONGING.
+- No claim, attribution, status, or hash changed.
+
+## [2026-09-06] lint | Link source files from every Sources entry
+
+- Following the alignment entry above, the 25 `## Sources` entries across 8 pages now read `[[SRC-...]] — [raw/<type>/<file>.md](<relative path>)`. The wikilink is the shared source identifier; the Markdown link restores the direct route to the file that the earlier per-page links provided.
+- `schema.md`: the Provenance example now shows both links and states the relative-path rule — `../raw/...` from a page directly under `wiki/`, `../../raw/...` from a page in a subdirectory.
+- No claim, attribution, status, or hash changed. This is a link-format correction only.
+
+## [2026-09-07] lint | Verify provenance links and synchronize maintenance dates
+
+- Reviewed the pending documentation changes and synchronized the eight edited subject pages, index, and corresponding catalog dates for this maintenance. Project claims, statuses, attribution, and source registrations remain unchanged.
+- Corrected the count in the preceding entry by addition: there are 23 `## Sources` entries across 8 pages, not 25. The earlier entry remains intact as part of the append-only history.
+- Verified one catalog entry for each of the nine Wiki pages other than the index, matching page statuses and dates, registered source identifiers, and existing local link targets. `git diff --check` passed, and `git status --porcelain raw/` was empty; registered originals were not changed or rehashed.

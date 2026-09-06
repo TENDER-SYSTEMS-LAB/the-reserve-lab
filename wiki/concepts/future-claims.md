@@ -1,7 +1,7 @@
 ---
 status: working
 attribution: llm-proposed
-updated: 2026-09-06
+updated: 2026-09-07
 sources:
   - SRC-2026-09-06-bank-artwork-interpretation
   - SRC-2026-09-06-design-audit-and-roadmap
@@ -91,5 +91,5 @@ The dated LONGING draft described in [[institutional-directions]] includes an un
 
 ## Sources
 
-- [SRC-2026-09-06-bank-artwork-interpretation](../../raw/conversations/2026-09-06-bank-artwork-interpretation.md)
-- [SRC-2026-09-06-design-audit-and-roadmap](../../raw/documents/2026-09-06-design-audit-and-roadmap.md) — Sections 4–6; candidate tests, meanings of currency, cross-work limits, and five incomplete interaction cases. These additions are proposals, not user-selected rules.
+- [[SRC-2026-09-06-bank-artwork-interpretation]] — [raw/conversations/2026-09-06-bank-artwork-interpretation.md](../../raw/conversations/2026-09-06-bank-artwork-interpretation.md)
+- [[SRC-2026-09-06-design-audit-and-roadmap]] — [raw/documents/2026-09-06-design-audit-and-roadmap.md](../../raw/documents/2026-09-06-design-audit-and-roadmap.md) — Sections 4–6; candidate tests, meanings of currency, cross-work limits, and five incomplete interaction cases. These additions are proposals, not user-selected rules.

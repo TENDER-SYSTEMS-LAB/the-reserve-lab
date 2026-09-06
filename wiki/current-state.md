@@ -1,7 +1,7 @@
 ---
 status: working
 attribution: llm-synthesis
-updated: 2026-09-06
+updated: 2026-09-07
 sources:
   - SRC-2026-09-06-wiki-initialization-request
   - SRC-2026-09-06-project-naming-and-public-language
@@ -56,9 +56,9 @@ The proposed next work is **TR-A01**, a concrete comparison of the relationship 
 
 ## Sources
 
-- [SRC-2026-09-06-wiki-initialization-request](../raw/conversations/2026-09-06-wiki-initialization-request.md)
-- [SRC-2026-09-06-project-naming-and-public-language](../raw/conversations/2026-09-06-project-naming-and-public-language.md)
-- [SRC-2026-09-06-bank-artwork-interpretation](../raw/conversations/2026-09-06-bank-artwork-interpretation.md)
-- [SRC-2026-09-06-design-audit-and-roadmap-request](../raw/documents/2026-09-06-design-audit-and-roadmap-request.md)
-- [SRC-2026-09-06-design-audit-and-roadmap](../raw/documents/2026-09-06-design-audit-and-roadmap.md)
-- [SRC-2026-09-06-design-audit-ingestion-request](../raw/conversations/2026-09-06-design-audit-ingestion-request.md)
+- [[SRC-2026-09-06-wiki-initialization-request]] — [raw/conversations/2026-09-06-wiki-initialization-request.md](../raw/conversations/2026-09-06-wiki-initialization-request.md)
+- [[SRC-2026-09-06-project-naming-and-public-language]] — [raw/conversations/2026-09-06-project-naming-and-public-language.md](../raw/conversations/2026-09-06-project-naming-and-public-language.md)
+- [[SRC-2026-09-06-bank-artwork-interpretation]] — [raw/conversations/2026-09-06-bank-artwork-interpretation.md](../raw/conversations/2026-09-06-bank-artwork-interpretation.md)
+- [[SRC-2026-09-06-design-audit-and-roadmap-request]] — [raw/documents/2026-09-06-design-audit-and-roadmap-request.md](../raw/documents/2026-09-06-design-audit-and-roadmap-request.md)
+- [[SRC-2026-09-06-design-audit-and-roadmap]] — [raw/documents/2026-09-06-design-audit-and-roadmap.md](../raw/documents/2026-09-06-design-audit-and-roadmap.md)
+- [[SRC-2026-09-06-design-audit-ingestion-request]] — [raw/conversations/2026-09-06-design-audit-ingestion-request.md](../raw/conversations/2026-09-06-design-audit-ingestion-request.md)

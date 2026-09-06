@@ -77,8 +77,10 @@ Every important claim must be traceable to a source ID through a `## Sources` se
 ```markdown
 ## Sources
 
-- [[SRC-2026-09-04-example-document]] — raw/documents/2026-09-04-example-document.md
+- [[SRC-2026-09-04-example-document]] — [raw/documents/2026-09-04-example-document.md](../../raw/documents/2026-09-04-example-document.md)
 ```
+
+Each entry carries two links. The `[[SRC-...]]` wikilink is the source identifier, shared by every page that rests on the same original. The Markdown link is the file itself, written relative to the page: `../raw/...` from a page directly under `wiki/`, `../../raw/...` from a page in a subdirectory.
 
 When provenance is a secondary citation — that is, when the original conversation or material behind a claim is absent from the repository and appears only indirectly through another source — state that limit.
 

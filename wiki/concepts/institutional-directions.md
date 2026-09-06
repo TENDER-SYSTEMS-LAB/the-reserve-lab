@@ -1,7 +1,7 @@
 ---
 status: working
 attribution: llm-proposed
-updated: 2026-09-06
+updated: 2026-09-07
 sources:
   - SRC-2026-09-06-bank-artwork-interpretation
   - SRC-2026-09-06-design-audit-and-roadmap
@@ -61,5 +61,5 @@ Single-source dependency: the original five mechanisms come from one assistant r
 
 ## Sources
 
-- [SRC-2026-09-06-bank-artwork-interpretation](../../raw/conversations/2026-09-06-bank-artwork-interpretation.md)
-- [SRC-2026-09-06-design-audit-and-roadmap](../../raw/documents/2026-09-06-design-audit-and-roadmap.md) — Sections 2, 4.2, and 6.1–6.3; dated sibling findings and new comparison proposals.
+- [[SRC-2026-09-06-bank-artwork-interpretation]] — [raw/conversations/2026-09-06-bank-artwork-interpretation.md](../../raw/conversations/2026-09-06-bank-artwork-interpretation.md)
+- [[SRC-2026-09-06-design-audit-and-roadmap]] — [raw/documents/2026-09-06-design-audit-and-roadmap.md](../../raw/documents/2026-09-06-design-audit-and-roadmap.md) — Sections 2, 4.2, and 6.1–6.3; dated sibling findings and new comparison proposals.

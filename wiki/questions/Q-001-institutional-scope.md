@@ -1,7 +1,7 @@
 ---
 status: unknown
 attribution: llm-synthesis
-updated: 2026-09-06
+updated: 2026-09-07
 sources:
   - SRC-2026-09-06-bank-artwork-interpretation
   - SRC-2026-09-06-project-naming-and-public-language
@@ -46,7 +46,7 @@ The audit's normal, refusal, time, exit, and non-performance/correction cases in
 
 ## Sources
 
-- [SRC-2026-09-06-bank-artwork-interpretation](../../raw/conversations/2026-09-06-bank-artwork-interpretation.md)
-- [SRC-2026-09-06-project-naming-and-public-language](../../raw/conversations/2026-09-06-project-naming-and-public-language.md)
-- [SRC-2026-09-06-design-audit-and-roadmap](../../raw/documents/2026-09-06-design-audit-and-roadmap.md) — Sections 6–9; unresolved cases, dependent work, and prioritized user choices.
-- [SRC-2026-09-06-design-audit-ingestion-request](../../raw/conversations/2026-09-06-design-audit-ingestion-request.md) — Authorization to ingest the report, not explicit adoption of its design recommendations.
+- [[SRC-2026-09-06-bank-artwork-interpretation]] — [raw/conversations/2026-09-06-bank-artwork-interpretation.md](../../raw/conversations/2026-09-06-bank-artwork-interpretation.md)
+- [[SRC-2026-09-06-project-naming-and-public-language]] — [raw/conversations/2026-09-06-project-naming-and-public-language.md](../../raw/conversations/2026-09-06-project-naming-and-public-language.md)
+- [[SRC-2026-09-06-design-audit-and-roadmap]] — [raw/documents/2026-09-06-design-audit-and-roadmap.md](../../raw/documents/2026-09-06-design-audit-and-roadmap.md) — Sections 6–9; unresolved cases, dependent work, and prioritized user choices.
+- [[SRC-2026-09-06-design-audit-ingestion-request]] — [raw/conversations/2026-09-06-design-audit-ingestion-request.md](../../raw/conversations/2026-09-06-design-audit-ingestion-request.md) — Authorization to ingest the report, not explicit adoption of its design recommendations.

@@ -1,7 +1,7 @@
 ---
 status: working
 attribution: llm-synthesis
-updated: 2026-09-06
+updated: 2026-09-07
 sources:
   - SRC-2026-09-06-project-naming-and-public-language
   - SRC-2026-09-06-bank-artwork-interpretation
@@ -42,7 +42,7 @@ The later audit adds a dated synthesis and testable planning proposals, not a ne
 
 ## Sources
 
-- [SRC-2026-09-06-project-naming-and-public-language](../raw/conversations/2026-09-06-project-naming-and-public-language.md)
-- [SRC-2026-09-06-bank-artwork-interpretation](../raw/conversations/2026-09-06-bank-artwork-interpretation.md)
-- [SRC-2026-09-06-design-audit-and-roadmap](../raw/documents/2026-09-06-design-audit-and-roadmap.md) — Sections 1–4; readiness findings and proposed design boundary.
-- [SRC-2026-09-06-design-audit-and-roadmap-request](../raw/documents/2026-09-06-design-audit-and-roadmap-request.md) — User-provided shared-world context and audit constraints, not a mechanism selection.
+- [[SRC-2026-09-06-project-naming-and-public-language]] — [raw/conversations/2026-09-06-project-naming-and-public-language.md](../raw/conversations/2026-09-06-project-naming-and-public-language.md)
+- [[SRC-2026-09-06-bank-artwork-interpretation]] — [raw/conversations/2026-09-06-bank-artwork-interpretation.md](../raw/conversations/2026-09-06-bank-artwork-interpretation.md)
+- [[SRC-2026-09-06-design-audit-and-roadmap]] — [raw/documents/2026-09-06-design-audit-and-roadmap.md](../raw/documents/2026-09-06-design-audit-and-roadmap.md) — Sections 1–4; readiness findings and proposed design boundary.
+- [[SRC-2026-09-06-design-audit-and-roadmap-request]] — [raw/documents/2026-09-06-design-audit-and-roadmap-request.md](../raw/documents/2026-09-06-design-audit-and-roadmap-request.md) — User-provided shared-world context and audit constraints, not a mechanism selection.

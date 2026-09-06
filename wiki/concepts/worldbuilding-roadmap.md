@@ -1,7 +1,7 @@
 ---
 status: working
 attribution: llm-proposed
-updated: 2026-09-06
+updated: 2026-09-07
 sources:
   - SRC-2026-09-06-design-audit-and-roadmap-request
   - SRC-2026-09-06-design-audit-and-roadmap
@@ -177,6 +177,6 @@ The recommendations depend on one audit report. That report's sibling-repository
 
 ## Sources
 
-- [SRC-2026-09-06-design-audit-and-roadmap-request](../../raw/documents/2026-09-06-design-audit-and-roadmap-request.md) — User's audit remit, required distinctions, and excluded real-world services; originally read-only.
-- [SRC-2026-09-06-design-audit-and-roadmap](../../raw/documents/2026-09-06-design-audit-and-roadmap.md) — §2 evidence/snapshot limits; §3 audit; §§4–5 proposed scope/depth/readiness; §§7–8 sequence and task cards.
-- [SRC-2026-09-06-design-audit-ingestion-request](../../raw/conversations/2026-09-06-design-audit-ingestion-request.md) — Subsequent authorization to ingest the report; no explicit selection of its institutional or operating recommendations.
+- [[SRC-2026-09-06-design-audit-and-roadmap-request]] — [raw/documents/2026-09-06-design-audit-and-roadmap-request.md](../../raw/documents/2026-09-06-design-audit-and-roadmap-request.md) — User's audit remit, required distinctions, and excluded real-world services; originally read-only.
+- [[SRC-2026-09-06-design-audit-and-roadmap]] — [raw/documents/2026-09-06-design-audit-and-roadmap.md](../../raw/documents/2026-09-06-design-audit-and-roadmap.md) — §2 evidence/snapshot limits; §3 audit; §§4–5 proposed scope/depth/readiness; §§7–8 sequence and task cards.
+- [[SRC-2026-09-06-design-audit-ingestion-request]] — [raw/conversations/2026-09-06-design-audit-ingestion-request.md](../../raw/conversations/2026-09-06-design-audit-ingestion-request.md) — Subsequent authorization to ingest the report; no explicit selection of its institutional or operating recommendations.
