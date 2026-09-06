@@ -39,10 +39,10 @@ Every Wiki page other than this index is registered exactly once below. Update i
 ## Repository Control
 
 - [README](../README.md) — Project and repository entry point (2026-09-06)
-- [AGENTS](../AGENTS.md) — Agent reading, ingestion, language, verification, and Git rules (2026-09-06)
-- [Schema](../schema.md) — Taxonomy, status, attribution, provenance, and promotion rules (2026-09-07)
-- [Raw README](../raw/README.md) — Source preservation and registration workflow (2026-09-06)
-- [Raw source registry](../raw/sources.md) — Source identifiers, paths, hashes, and ingestion status (2026-09-06)
+- [AGENTS](../AGENTS.md) — Task-sized reading, scoped verification, source preservation, institutional Git identity, and standing push authorization (2026-09-07)
+- [Schema](../schema.md) — On-demand page structure, attribution, provenance, catalog, and maintenance reference (2026-09-07)
+- [Raw README](../raw/README.md) — New-source registration, immutable originals, and targeted lookup guidance (2026-09-07)
+- [Raw source registry](../raw/sources.md) — Source IDs, paths, hashes, ingestion status, and targeted registration/lookup rules (2026-09-07)
 
 ## Editing Destinations
 

@@ -1,188 +1,60 @@
 # THE RESERVE Wiki — Agent Instructions
 
-This repository is THE RESERVE's long-term memory. Agents working here read before they write. Before adding anything new, check what has already been recorded and build on it.
+This is THE RESERVE's long-term project memory. Shared conventions originate in [TENDER SYSTEMS](https://github.com/TENDER-SYSTEMS-LAB/tender-systems); these local instructions are sufficient for routine work. Consult the institutional repository only when shared rules or cross-project scope are at issue.
 
-This repository follows the same operating convention as [other-goods-lab](https://github.com/TENDER-SYSTEMS-LAB/other-goods-lab). When the two diverge without reason, prefer the established convention there.
+## Task-Sized Reading
 
-## What to Read First
-
-Read these files in order:
-
-1. `wiki/index.md`
-2. `wiki/current-state.md`
-3. `schema.md`
-4. The concept, decision, or question pages relevant to the task
-
-Do not begin by scanning the entire raw layer. Start with the synthesis already maintained in the Wiki, then consult only the raw sources that are necessary.
-
-## Repository Language
-
-- English is the canonical and default language for all maintained repository documentation, including `README.md`, `AGENTS.md`, `schema.md`, `wiki/**`, `raw/README.md`, and `raw/sources.md`.
-- Write all new pages, edits, headings, summaries, metadata prose, and log entries in English, even when the user's working language is not English.
-- Preserve proper names, source identifiers, file paths, code, and intentionally quoted source text when translating them would change their identity or evidentiary meaning.
-- Registered files under `raw/documents/`, `raw/conversations/`, and `raw/surveys/` are immutable source records and retain their original language. Never rewrite a raw source to satisfy the English-default policy; synthesize or explain it in English in the Wiki instead.
-
-## Document Roles
-
-- `README.md` is the entry point through which readers understand the project and the repository. Do not put the complete file list or agent instructions there.
-- `wiki/index.md` is the working catalog for finding every Wiki page and its editing destination. Excluding the index itself, register each page exactly once under its type with `link + one-line summary + updated date`; include status when the page has one.
-- `wiki/current-state.md` is a snapshot of currently valid decisions, scope, priorities, and unresolved questions.
-- `wiki/log.md` is an append-only chronological history of meaningful ingestion, queries, decisions, linting, and maintenance.
-- `raw/sources.md` is the single registry for every original source's path, hash, and ingestion status. Do not duplicate the raw source list in the index.
-
-## Query Workflow
-
-When the user asks a question, find the answer in this order:
-
-```text
-index
-  ↓
-current-state
-  ↓
-relevant concept / decision / question
-  ↓
-raw source only when necessary
-```
-
-Consult raw sources only for consequential judgments or when the original evidence must be checked directly.
+- Read these instructions once when entering this repository; reuse unchanged material already in context. Do not reread a whole file just to verify one fact.
+- Locate the editing destination in `wiki/index.md` with a focused search; read the full catalog only when the destination is unclear. Read the relevant page or section next.
+- Consult the relevant `wiki/current-state.md` section for current decisions, priorities, conflicts, or a change to project state. It is not required reading for a link, formatting, or Git-only task.
+- `schema.md` is an on-demand reference: read the applicable section for unfamiliar structure, metadata, attribution, provenance, or promotion rules. Do not load it in full at every task.
+- Read only the needed source row, capture note, and original when evidence matters. For example: `rg -n -F 'SRC-YYYY-MM-DD-slug' raw/sources.md`. Do not load the registry table or scan raw originals for routine verification.
+- Search `wiki/log.md` by topic/date for history; inspect its tail when appending. Keep the full log out of context. Earlier verification entries describe past work, not instructions to repeat it.
+- For edits, inspect `git status --short` to identify existing work and use a scoped diff. For read-only questions, skip unrelated Git, authentication, hash, and lint checks.
+- Delegate only useful independent work with the relevant paths and a bounded result; avoid duplicating a complete audit in parent and child agents.
 
 ## Conversation Ingestion Workflow
 
-When ingesting a new conversation or document, follow this sequence:
+1. **Register** — Preserve the new original and record its Git blob hash once in `raw/sources.md`; inspect only the applicable registry rows and notes.
+2. **Locate** — Use the catalog and relevant existing pages; consult current state where the new material affects it.
+3. **Analyze** — Distinguish ideas, decisions, hypotheses, questions, rejection, rationale, and uncertainty.
+4. **Compare** — Identify new, reinforcing, conflicting, or superseding information.
+5. **Promote selectively** — Leave one-off or unsupported material in raw.
+6. **Update first** — Extend an existing page when it owns the material.
+7. **Create only if needed** — Add a page for an independent entity likely to develop further.
+8. **Cross-link** — Link related pages and the supporting source ID and original file.
+9. **Check state** — Update `wiki/current-state.md` only when current decisions, scope, priorities, or questions changed.
+10. **Synchronize the index** — For each created, moved, deleted, or edited page, update only affected catalog entries when their summary, status, or updated date changed. Register every Wiki page except the index exactly once with a link, one-line summary, status if present, and date.
+11. **Append the result** — Add one concise `## [YYYY-MM-DD] <type> | <title>` entry after all existing log content for meaningful ingestion, decisions, durable queries, or maintenance. Prefer `ingest`, `query`, `decision`, `lint`, or `maintenance`. Do not log routine reads or clean checks without a durable result.
 
-1. **Register the source** — Preserve the original unchanged under `raw/` and register it in `raw/sources.md` with its hash.
-2. **Explore the existing Wiki** — Read the index, current state, and relevant pages first.
-3. **Analyze the conversation** — Extract ideas, decisions, hypotheses, open questions, rejected or deferred ideas, rationale, tensions, and emerging concepts.
-4. **Compare with existing knowledge** — Decide whether the information is new, reinforces existing material, conflicts with it, or supersedes an earlier decision.
-5. **Decide whether to promote** — Keep the material only in raw or promote it into the Wiki.
-6. **Prefer updating existing pages** — Before creating a page, check whether an existing page can be updated.
-7. **Create a new page** — Do so only for a genuinely new, independent entity.
-8. **Cross-link** — Link related concepts, decisions, and questions.
-9. **Check current state** — Determine whether the project's current state changed and update it when needed.
-10. **Synchronize the index** — In the same task, update the catalog entry when a page is created, moved, or deleted, or when its summary, status, or updated date changes.
-11. **Append to `log.md`** — Add the work after all existing entries using `## [YYYY-MM-DD] <type> | <title>`. Prefer `ingest`, `query`, `decision`, `lint`, or `maintenance` as the type.
+## Preservation and Scope
 
-## Never Do These Things
-
-- Delete or modify a raw source.
-- Replace raw material with the Wiki.
-- Promote every source automatically.
-- Record an LLM proposal as a user decision.
-- Present a rejected idea as current.
-- Invent facts without a source.
-- Hide uncertainty.
-- Silently overwrite older knowledge.
-- Modify past entries in `log.md` outside an explicitly authorized repository-wide migration.
-- Create many empty placeholder pages.
-- Add metadata fields that are not needed.
-- Treat Wiki size, page count, or document length as a success metric.
-
-## When to Create a New Page
-
-Create a page only when a meaningful unit has emerged that cannot be captured by one line in `current-state.md` and is likely to develop independently over time.
-
-## Git Identity and Push Policy
-
-All Git commits created for this repository must use the institutional TENDER SYSTEMS identity rather than the personal identity of the operator.
-
-### Commit identity
-
-Before creating any commit, verify the repository-local Git identity.
-
-Required identity:
-
-- `user.name`: `TENDER SYSTEMS`
-- `user.email`: the verified email address assigned to the dedicated TENDER SYSTEMS GitHub identity
-
-Use repository-local configuration:
-
-```bash
-git config --local user.name "TENDER SYSTEMS"
-git config --local user.email "<VERIFIED_TENDER_SYSTEMS_EMAIL>"
-```
-
-Do not modify the operator's global Git identity unless explicitly requested. Never fall back to the operator's personal name or personal email address.
-
-If the TENDER SYSTEMS email address cannot be verified from the existing environment or GitHub configuration, do not invent one and do not use a personal email address. In particular, do not guess a Gmail address, a `tendersystems` domain address, or a `noreply` address. Stop before committing and report that the institutional email must be configured.
-
-Before every commit, verify:
-
-```bash
-git var GIT_AUTHOR_IDENT
-git var GIT_COMMITTER_IDENT
-```
-
-Both identities must resolve to the TENDER SYSTEMS institutional identity.
-
-After creating a commit, verify with:
-
-```bash
-git log -1 --format=fuller
-```
-
-The author and committer must not contain the operator's personal identity.
-
-### Push authentication
-
-Commit identity and GitHub push authentication are separate concerns. Setting `git config user.name` or `user.email` does not determine which GitHub account performs the push.
-
-Before pushing, identify which GitHub account or automation identity will authenticate the operation. A dedicated institutional identity remains preferred. Acceptable institutional mechanisms include:
-
-- a dedicated TENDER SYSTEMS GitHub user or machine account with its own SSH key;
-- a dedicated TENDER SYSTEMS GitHub credential or token;
-- a GitHub App or another explicitly configured institutional automation identity.
-
-Do not assume that membership in the `TENDER-SYSTEMS-LAB` GitHub Organization makes the Organization itself a Git authentication identity.
-
-The public commit history derives author and committer attribution from the commit object, not from the account that authenticated a later push. When the user explicitly authorizes personal push authentication on that basis, the agent may use it only after confirming that the public commit record contains the institutional author and committer identity. Do not describe personal authentication as institutional authentication, and do not promise that the push actor is anonymous: GitHub organization audit logs or other non-commit activity surfaces may retain the authenticating account.
-
-Push only when requested by the user. Identify the authenticated GitHub account and keep both commit identities institutional. Authorization recorded in a sibling repository does not constitute standing authorization for this repository.
-
-Standing user authorization (2026-09-06): The user permits the operator's personal GitHub account to authenticate pushes for this repository and accepts that the authenticating account may remain visible in GitHub audit logs or other non-commit activity surfaces. Do not request this permission again unless the user revokes it or the task explicitly requires a dedicated institutional push identity. This authorization does not change the commit identity requirement: every new commit must retain TENDER SYSTEMS as both author and committer, using the verified institutional email. Verify the actual authentication account and the identities of all outgoing commits before each push.
-
-If a dedicated TENDER SYSTEMS push identity is required for the task, do not fall back to the operator's personal credentials.
-
-Where SSH is used, prefer a dedicated SSH host alias and key configuration that isolates TENDER SYSTEMS authentication from the operator's personal GitHub identity. Where HTTPS is used, keep TENDER SYSTEMS credentials isolated from personal GitHub credentials.
-
-Never expose, print, commit, or document secrets such as:
-
-- personal access tokens;
-- OAuth tokens;
-- private SSH keys;
-- credential-helper secrets.
-
-### Pre-commit and pre-push safety rule
-
-Before any `git commit`, the agent must verify:
-
-1. The repository is a TENDER SYSTEMS repository.
-2. `user.name` resolves to `TENDER SYSTEMS`.
-3. `user.email` resolves to the verified TENDER SYSTEMS email.
-4. The author and committer identities do not contain the operator's personal identity.
-
-Before any `git push`, the agent must additionally verify the actual authentication identity. Prefer a dedicated TENDER SYSTEMS identity. For a user-requested push, identify the actual authentication account and disclose that the actor may remain visible in audit logs or other non-commit activity surfaces. In either case, verify that the commits being pushed retain the institutional author and committer identity.
-
-If the applicable conditions cannot be verified, do not commit or push. Report the unresolved configuration instead.
-
-### Existing history
-
-Do not rewrite existing Git history merely because older commits contain a personal identity. Unless explicitly instructed otherwise, do not use:
-
-- `git filter-repo`;
-- history-rewriting rebase operations;
-- force push;
-- author rewriting of existing commits.
-
-This policy applies to new commits from this point forward.
+- Maintain documentation in English; preserve raw originals, proper names, source IDs, paths, and intentional quotations. Public translations are derivatives of canonical English; see `schema.md`.
+- Never edit/delete a registered original, including a defective capture; register a separate correction. The source registry and raw README are maintained control documents, not originals.
+- Never replace raw evidence with Wiki synthesis, invent facts, promote an LLM proposal to a user decision, or present rejected material as current. Preserve uncertainty, attribution, and consequential evolution.
+- Never modify existing log entries, including uncommitted entries from earlier work. Correct them by appending. No silent overwrites or empty placeholder pages; add taxonomy and metadata only for a real need.
+- Write institutional records without the operator's personal identity. Keep project detail canonical in its owning Lab; institution-level shared rules belong in TENDER SYSTEMS.
+- Keep `README.md` a public entry point, the index a catalog, current state a snapshot, `raw/sources.md` the sole source registry, and the log the history. Do not duplicate source tables or ingestion chronology in guides.
+- Preserve concurrent work. Never use directory-wide checkout/restore, `git reset --hard`, `git add --renormalize .`, or `git checkout-index -f -a`. Stage explicit reviewed paths, not `git add -A`; recheck status before committing.
 
 ## Verification
 
-Git already tracks whether a registered original changed. At the end of a task, confirm that none was modified:
+- After edits, check `git status --porcelain raw/` once and inspect only changed paths. Registry/guide edits and new files are not evidence that an existing original changed.
+- If a registered original changed, stop synthesis based on it, inspect that path's diff and registry row, and report the affected material as `REVIEW_REQUIRED`. Preserve the worktree; do not restore files blindly.
+- **Never compare all registered hashes as a routine task.** Hash only a new source at registration; rehash an existing source only for a concrete mismatch investigation. A complete provenance audit requires an explicit request. Git status detects working-tree changes; it does not prove historical registry accuracy.
+- Validate changed pages, affected catalog entries, local links and provenance, and `git diff --check`. Check old-log preservation mechanically without printing its contents. Skip content checks for a Git-only task whose reviewed files are unchanged.
+- Run a wider lint only for an explicit audit, a structural migration, or a finding whose impact extends beyond the changed pages. Report actionable findings or a brief pass summary; do not enumerate every healthy link/hash or regenerate checks after they pass without a new reason.
 
-```bash
-git status --porcelain raw/
-```
+## Git Identity and Push Policy
 
-Any entry under `raw/` for an already registered source means the original changed. Do not update the Wiki automatically; restore the original and mark the relevant page `REVIEW_REQUIRED`. To check whether an earlier commit modified an original, use `git log --oneline -- raw/`.
+Only for a commit/push task, verify the remote belongs to `TENDER-SYSTEMS-LAB`. Every new author and committer must be `TENDER SYSTEMS <code@tender.systems>`, the verified institutional identity. Configure it locally if needed; never guess an address, use personal attribution, or change global identity.
 
-Do not re-verify every registered hash against `raw/sources.md` on each task. Git detects the same modification at no cost, and the manual comparison also produces false mismatches from line-ending normalization. The `Hash` column remains in the registry as the provenance record of the exact version that was ingested; it is not a per-task checklist.
+Before every commit, check local `user.name`/`user.email`, `git var GIT_AUTHOR_IDENT`, and `git var GIT_COMMITTER_IDENT`. Afterward inspect `git log -1 --format=fuller`. Stop if either identity is wrong.
+
+Push only when requested. Before each push verify the actual authentication account and the author/committer of every outgoing commit. Prefer dedicated institutional credentials; if explicitly required, never fall back to personal authentication. An Organization is not a Git authentication identity, and commit attribution is separate from the push actor. Keep institutional credentials isolated where configured.
+
+Never expose tokens, helper secrets, or private keys. Never rewrite existing history or force-push to change attribution.
+
+### Standing authorization
+
+Standing user authorization (2026-09-06): The user permits the operator's personal GitHub account to authenticate pushes for this repository and accepts that the authenticating account may remain visible in GitHub audit logs or other non-commit activity surfaces. Do not request this permission again unless the user revokes it or the task explicitly requires a dedicated institutional push identity. This authorization does not change the commit identity requirement: every new commit must retain TENDER SYSTEMS as both author and committer, using the verified institutional email. Verify the actual authentication account and the identities of all outgoing commits before each push.

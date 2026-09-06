@@ -28,3 +28,5 @@ Create directories only when material arrives; empty source directories are not 
 
 - Registered sources keep their original language. The repository's English-default policy applies to the Wiki, not to evidence.
 - Registration is not promotion. A source enters the Wiki only when the promotion rules in [`../schema.md`](../schema.md) are satisfied.
+
+For routine work, follow [AGENTS — Verification](../AGENTS.md#verification). Hash only the new source being registered; do not load the full source table or recheck unchanged originals.

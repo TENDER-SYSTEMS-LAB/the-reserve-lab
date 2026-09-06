@@ -4,7 +4,9 @@ This is the single registry of original sources. Hashes use `git hash-object`. R
 
 ## Registration
 
-When adding a source, append one row to the table below and record the result of `git hash-object <path>` in the `Hash` column. If a later hash differs from the registered value, the original has changed. Do not update the Wiki automatically. Mark the pages that rely on the source `REVIEW_REQUIRED` so that a person can review them again.
+When adding a source, append its row and record `git hash-object <path>` once in the `Hash` column. Preserve that hash as provenance.
+
+For a lookup or suspected mismatch, search only the source ID/path and its capture note. Do not load this entire table or compare all hashes for routine tasks. Follow [AGENTS — Verification](../AGENTS.md#verification): inspect changed raw paths with Git; an explicitly requested provenance audit is a separate task.
 
 ## Source List
 

@@ -1,6 +1,6 @@
 # THE RESERVE Wiki Schema
 
-This document defines how to manage the Wiki; it is not part of the Wiki's subject matter. A new agent or person beginning work in this repository should be able to understand the entire operating system by reading only `schema.md`, `wiki/index.md`, and `wiki/current-state.md`.
+This document defines how to manage the Wiki; it is not part of the Wiki's subject matter. Use the task-sized reading route in [AGENTS](AGENTS.md#task-sized-reading); consult this schema by section when a structural or evidentiary rule is needed.
 
 This schema adapts the operating conventions of [other-goods-lab](https://github.com/TENDER-SYSTEMS-LAB/other-goods-lab) and [longing-lab](https://github.com/TENDER-SYSTEMS-LAB/longing-lab).
 
@@ -102,7 +102,7 @@ Pages use minimal YAML frontmatter containing only these four fields. Do not add
 
 - `status` — One of the eight values above.
 - `attribution` — One of the five values above.
-- `updated` — The date on which the page was last updated.
+- `updated` — The date on which the page was last updated. Change it only when editing the page, not merely reading or verifying it; synchronize only its affected catalog entry.
 - `sources` — A list of source IDs supporting the page.
 
 Example:
@@ -156,15 +156,15 @@ When answering from the Wiki:
 
 ## Maintenance
 
-Continuously watch for two conditions:
+Inspect important claims for single-source dependency while working on the relevant page. Record consequential limits; do not recount every page's sources on each task.
 
-**(A) Single-source dependency** — Mark a review signal when an important conclusion depends on only one source.
+For source integrity, use [AGENTS — Verification](AGENTS.md#verification). Ordinary edits require a scoped Git status/diff check, not a registry-wide hash comparison. Hash a new source once at registration; investigate only a specifically suspect original afterward. A full provenance audit is an explicitly requested task, not periodic background work.
 
-**(B) Source-Wiki mismatch** — Periodically check whether original files have changed since registration. Compare `git hash-object <source path>` with the `Hash` column in `raw/sources.md`. If a value differs, do not update the Wiki automatically. Mark the relevant page `REVIEW_REQUIRED` for human review.
+Keep stable procedures in guides, current project facts in `wiki/current-state.md`, source registration in `raw/sources.md`, and chronological work in `wiki/log.md`. Avoid repeating source totals and ingestion history across these files.
 
 ## Wiki Lint
 
-As the Wiki grows, manually check:
+On changed pages, check only applicable items below. A repository-wide lint is reserved for an explicit audit, structural migration, or a finding with wider impact:
 
 - broken Wiki links
 - orphan pages that nothing links to
@@ -172,7 +172,7 @@ As the Wiki grows, manually check:
 - pages that are excessively large or small
 - stale pages that have not been updated for a long time
 - missing provenance
-- source hash mismatches
+- suspected changes to an original, investigated only for the affected path
 - rejected ideas presented as current
 - mismatches between the index and current state
 - single-source dependencies
