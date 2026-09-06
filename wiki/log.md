@@ -25,3 +25,12 @@ Append new entries after all existing entries. Do not rewrite past entries.
 - Recorded THE RESERVE and “A place for what remains.” as explicit user decisions. Kept project codes, handles, mechanisms, and worldbuilding suggestions unconfirmed.
 - Added an overview, two concept pages, two decision pages, and one consolidated question page; updated current state and index while preserving the earlier initialization history.
 - Rewrote the README using the confirmed title and bio, with Overview and Archive navigation. Removed TENDER SYSTEMS from README at the user's request. The removal applies to README, not to immutable sources or institutional Git rules.
+
+## [2026-09-06] ingest | Preserve the design audit and proposed worldbuilding roadmap
+
+- Registered the user's audit brief and the delivered Korean design audit as byte-identical standalone originals, plus the follow-up ingestion request as a verbatim message capture with a terminal newline. The source registry records their hashes, distinct attribution, and promotion roles.
+- Preserved the audit's readiness findings and its 2026-09-06 22:39 KST related-repository snapshot, including uncommitted-source, access, and secondary-evidence limits. The audit request does not replace the earlier missing bank-interpretation attachment.
+- Added one independently developing concept, worldbuilding-roadmap, for the proposed scope/depth framework, six completion gates, reopening triggers, A–F dependencies, and five assignable review tasks. Reused institutional-directions for candidate and cross-work comparisons, future-claims for the unresolved benefit and five test cases, and Q-001 for prioritized user choices.
+- Updated overview, current state, and the index together. Ingestion authorization is recorded separately from adopting an institution, scope, currency, rule, or implementation plan. Existing name and bio decisions remain unchanged; no candidate was selected or rejected by this ingestion.
+- Verified all three previously registered source hashes before writes and all six registered hashes after synthesis. Both copied files remain byte-identical to their supplied originals. Checked Wiki/source links, one index entry per Wiki page, attribution, and Git whitespace; no findings. The earlier LONGING CSV normalization signal remains a caveat in the report, not a new THE RESERVE source mismatch.
+- Appended this entry without altering prior log content. No artwork implementation, issue creation, commit, or push was performed.

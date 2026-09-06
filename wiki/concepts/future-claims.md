@@ -4,6 +4,7 @@ attribution: llm-proposed
 updated: 2026-09-06
 sources:
   - SRC-2026-09-06-bank-artwork-interpretation
+  - SRC-2026-09-06-design-audit-and-roadmap
 ---
 
 # Future Claims
@@ -47,8 +48,48 @@ A shared currency, the labels TENDER/TDR, actual convertibility, and further ins
 
 The source calls for careful study of credit, interest, discounting, collateral, maturity, default, liquidity, and money creation before specifying the system. It warns against treating interest as only waiting or explaining banking solely as relending a fraction of deposits. These are unverified research prompts from the conversation; ingestion has not validated financial claims or models.
 
-Single-source dependency: one assistant response to a missing prompt attachment. The confirmed public bio in [[DEC-002-public-language]] does not select this proposal.
+Single-source dependency: the original mechanism comes from one assistant response to a missing prompt attachment. The later audit does not independently validate that response's financial explanations. The confirmed public bio in [[DEC-002-public-language]] does not select this proposal.
+
+## Evolution — test the relationship before credit machinery
+
+The 2026-09-06 audit recommends testing this candidate first, not adopting it. Its first unresolved question is **what becomes usable now because the visitor undertakes a future obligation**. The institution must also owe something: provision of the valid present right and handling of the obligation under disclosed conditions are proposals for that reciprocal responsibility.
+
+If numbers or screen transitions do not change the visitor's choices, control, or possible actions, the candidate has not established a meaningful present benefit. An access right can qualify if its consequence is meaningful. If delegation and return of control matter more, compare the custody alternative in [[institutional-directions]] instead of adding more credit products.
+
+This revises the recommended order of work, not the historical proposal above. Interest, collateral, risk grades, three products, and real elapsed time are not prerequisites merely because they appeared in the original response. They need an effect on the selected experience. Do not introduce a numeric assessment of the whole person.
+
+## Provisional interaction and unresolved cases
+
+The following is a **proposed test scaffold**, not a completed contract, participant study, implementation specification, or real financial service:
+
+- **P** — a submitted statement about the visitor's own future action.
+- **B** — a present usable right within the institution; its actual benefit remains undefined.
+- **O** — the visitor's future performance obligation; its content and acceptable evidence remain undefined.
+- **M** — the assessment time; real versus simulated time remains open.
+
+A submission records P. It is not already an issued right. The audit proposes that B and O arise only after eligibility and acceptance of conditions. Its example of continuing to choose an activity at M is a test input, not an adopted eligible object. A personal wish, observable action, submitted evidence, and institutional record must remain distinct.
+
+| Case | Proposed input → judgment → rule → state → visible result | What still blocks a complete explanation |
+| --- | --- | --- |
+| Normal application and acceptance | Submit P and M → check eligibility → apply consistent criteria and obtain acceptance → create B and O together → show the usable right, obligation, and maturity | Eligibility, B's benefit and accepting party, O, and the institution's guarantee remain undefined |
+| Ineligible input | Submit an unbounded wish without an assessable time or act → apply the chosen eligibility rule → create no B/O if rejected → show the reason and any permitted revision | No rule yet selects admissible statements or self-report versus other evidence; the example is not a confirmed ban on emotional subjects |
+| Time and maturity | Reach M with the recorded evidence → assess using the declared clock and performance rule → enter a defined performance or unverified state → show the relevant contract and reason | Clock choice, deadline ordering, sufficient evidence, and missing evidence versus non-performance are open; time alone does not require interest |
+| Exit and cancellation | Leave before acceptance, after acceptance, or after using B → distinguish closing a screen from cancelling a contract → preserve or terminate rights as specified → show the correct state on return | Reversibility after use, cancellation terms, persistence, and the need for a return visit remain open |
+| Non-performance and correction | Change the commitment, fail to perform, or encounter a missing timely record → separate non-performance, insufficient evidence, and record error → close, review, or correct under disclosed rules → show remaining rights, duties, and history | Consequences, closure after B has been used, correction versus renegotiation, and possible recovery remain undefined |
+
+These cases identify dependencies: without B and O there is no basis for amounts or rates; without performance there is no maturity/default rule; without exit and return rules there is no settled need for persistent accounts. They do not demonstrate that credit is working. The proposed sequence is in [[worldbuilding-roadmap]], with user choices retained in [[Q-001-institutional-scope]].
+
+The audit suggests synthetic statements or bounded choices and simulated time for the first sketch. In-world refusal, constraint, or a lasting record is distinct from real money loss, external credit records, or sensitive-information collection. None of the latter was requested for this design scope.
+
+## Currency and cross-work limits after the audit
+
+Keep five meanings separate: a unit used to express a quantity; an account record or remaining amount; a claim or obligation against a party; a transferable payment/settlement instrument; and issuance, withdrawal, redemption, or backing of that instrument. Defining internal rights' creation, use, and closure does not require inventing a currency. A quantitative right needs consistent quantity rules only if chosen.
+
+The audit's trial confines B's use to THE RESERVE; this is a proposed limit, not an adopted contract. Cross-work use would require named issuers and accepting parties, a defined unit, and actual transfer/settlement responsibilities. Shared terminology alone does not establish those commitments.
+
+The dated LONGING draft described in [[institutional-directions]] includes an unselected funded forecast-claim alternative, so a simple price-versus-credit division is insufficient. That alternative does not oblige practitioners to write letters. A THE RESERVE candidate concerning the visitor's own future performance must be compared on its parties, obligations, and effects; merely forecasting the same aggregate practice would overlap. No LONGING clearing trust has been selected as THE RESERVE's role.
 
 ## Sources
 
 - [SRC-2026-09-06-bank-artwork-interpretation](../../raw/conversations/2026-09-06-bank-artwork-interpretation.md)
+- [SRC-2026-09-06-design-audit-and-roadmap](../../raw/documents/2026-09-06-design-audit-and-roadmap.md) — Sections 4–6; candidate tests, meanings of currency, cross-work limits, and five incomplete interaction cases. These additions are proposals, not user-selected rules.

@@ -4,12 +4,13 @@ Every Wiki page other than this index is registered exactly once below. Update i
 
 ## Overview
 
-- [Overview](overview.md) — Confirmed public identity and the unresolved bank-artwork research field · `working` (2026-09-06)
+- [Overview](overview.md) — Confirmed public identity, institutional research field, and design-readiness boundary · `working` (2026-09-06)
 
 ## Concepts
 
-- [Institutional directions](concepts/institutional-directions.md) — Five assistant-proposed forms, tradeoffs, and missing-prompt limitation · `working` (2026-09-06)
-- [Future claims](concepts/future-claims.md) — Recommended credit mechanism, visitor consequences, and worldbuilding boundaries; not adopted · `working` (2026-09-06)
+- [Institutional directions](concepts/institutional-directions.md) — Five unselected forms, audit selection tests, and dated cross-work boundaries · `working` (2026-09-06)
+- [Future claims](concepts/future-claims.md) — Unadopted credit proposal, present-benefit gap, five provisional cases, and currency distinctions · `working` (2026-09-06)
+- [Worldbuilding roadmap](concepts/worldbuilding-roadmap.md) — Design-readiness audit, proposed scope and depth, completion gates, dependent stages, and five task cards · `working` (2026-09-06)
 
 ## Decisions
 
@@ -18,11 +19,11 @@ Every Wiki page other than this index is registered exactly once below. Update i
 
 ## Questions
 
-- [Institutional scope](questions/Q-001-institutional-scope.md) — Unsettled operating role, eligible claims, stakes, and identity follow-up · `unknown` (2026-09-06)
+- [Institutional scope](questions/Q-001-institutional-scope.md) — Unsettled role and rules, five prioritized user choices, and ingestion-versus-adoption boundary · `unknown` (2026-09-06)
 
 ## Current State
 
-- [Current state](current-state.md) — Confirmed name and bio, proposed institutional directions, and evidence limits · `working` (2026-09-06)
+- [Current state](current-state.md) — Confirmed identity, ingested audit, proposed next scope and work, and evidence limits · `working` (2026-09-06)
 
 ## Activity
 
@@ -38,4 +39,4 @@ Every Wiki page other than this index is registered exactly once below. Update i
 
 ## Editing Destinations
 
-Read current state first. Update an existing page before creating another. Route interpretation updates to the concept pages, confirmed identity changes to the decision pages, and unresolved design choices to the scope question. Create additional pages only when supported material needs an independent page. Register new pages here in the same task; append meaningful changes to the log.
+Read current state first. Update an existing page before creating another. Route candidate comparisons and dated cross-work boundaries to institutional directions, contract-case tests to future claims, readiness/depth/work-sequence changes to the worldbuilding roadmap, confirmed identity changes to the decision pages, and unresolved user choices to the scope question. Create additional pages only when supported material needs an independent page. Register new pages here in the same task; append meaningful changes to the log.
