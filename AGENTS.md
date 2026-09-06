@@ -138,6 +138,8 @@ The public commit history derives author and committer attribution from the comm
 
 Push only when requested by the user. Identify the authenticated GitHub account and keep both commit identities institutional. Authorization recorded in a sibling repository does not constitute standing authorization for this repository.
 
+Standing user authorization (2026-09-06): The user permits the operator's personal GitHub account to authenticate pushes for this repository and accepts that the authenticating account may remain visible in GitHub audit logs or other non-commit activity surfaces. Do not request this permission again unless the user revokes it or the task explicitly requires a dedicated institutional push identity. This authorization does not change the commit identity requirement: every new commit must retain TENDER SYSTEMS as both author and committer, using the verified institutional email. Verify the actual authentication account and the identities of all outgoing commits before each push.
+
 If a dedicated TENDER SYSTEMS push identity is required for the task, do not fall back to the operator's personal credentials.
 
 Where SSH is used, prefer a dedicated SSH host alias and key configuration that isolates TENDER SYSTEMS authentication from the operator's personal GitHub identity. Where HTTPS is used, keep TENDER SYSTEMS credentials isolated from personal GitHub credentials.
