@@ -2,9 +2,27 @@
 
 Every Wiki page other than this index is registered exactly once below. Update its summary, status, and date whenever its content changes.
 
+## Overview
+
+- [Overview](overview.md) — Confirmed public identity and the unresolved bank-artwork research field · `working` (2026-09-06)
+
+## Concepts
+
+- [Institutional directions](concepts/institutional-directions.md) — Five assistant-proposed forms, tradeoffs, and missing-prompt limitation · `working` (2026-09-06)
+- [Future claims](concepts/future-claims.md) — Recommended credit mechanism, visitor consequences, and worldbuilding boundaries; not adopted · `working` (2026-09-06)
+
+## Decisions
+
+- [Project name](decisions/DEC-001-project-name.md) — User selection of THE RESERVE; alternative names and unconfirmed identifiers · `confirmed` (2026-09-06)
+- [Public language](decisions/DEC-002-public-language.md) — Approved bio and distinct wording across works · `confirmed` (2026-09-06)
+
+## Questions
+
+- [Institutional scope](questions/Q-001-institutional-scope.md) — Unsettled operating role, eligible claims, stakes, and identity follow-up · `unknown` (2026-09-06)
+
 ## Current State
 
-- [Current state](current-state.md) — Confirmed initialization request, repository setup, and undocumented project scope · `working` (2026-09-06)
+- [Current state](current-state.md) — Confirmed name and bio, proposed institutional directions, and evidence limits · `working` (2026-09-06)
 
 ## Activity
 
@@ -20,4 +38,4 @@ Every Wiki page other than this index is registered exactly once below. Update i
 
 ## Editing Destinations
 
-Read current state first. Update an existing page before creating another. Create `wiki/concepts/`, `wiki/decisions/`, or `wiki/questions/` only when supported material needs an independent page. Add an overview when the project has a documented concept. Register new pages here in the same task; append meaningful changes to the log.
+Read current state first. Update an existing page before creating another. Route interpretation updates to the concept pages, confirmed identity changes to the decision pages, and unresolved design choices to the scope question. Create additional pages only when supported material needs an independent page. Register new pages here in the same task; append meaningful changes to the log.
