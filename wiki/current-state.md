@@ -3,6 +3,7 @@ status: working
 attribution: llm-synthesis
 updated: 2026-09-07
 sources:
+  - SRC-2026-09-07-the-reserve-identifier-confirmation
   - SRC-2026-09-06-wiki-initialization-request
   - SRC-2026-09-06-project-naming-and-public-language
   - SRC-2026-09-06-bank-artwork-interpretation
@@ -13,11 +14,11 @@ sources:
 
 # Current State
 
-Six sources are registered with distinct evidence roles: initialization, the original assistant bank interpretation, explicit naming decisions, the user's audit brief, the delivered design audit, and the follow-up authorizing its ingestion. Registration and promotion do not make the audit's design recommendations user decisions.
+Registered sources distinguish initialization, the original assistant bank interpretation, explicit naming and identifier decisions, the user's audit brief, the delivered design audit, and the follow-up authorizing its ingestion. Registration and promotion do not make the audit's design recommendations user decisions.
 
 ## Confirmed
 
-- The project is named **THE RESERVE**. See [[DEC-001-project-name]].
+- The project is named **THE RESERVE**, with the user-confirmed identifier **RS-001** (2026-09-07). See [[DEC-001-project-name]].
 - Its public bio is **“A place for what remains.”** The user approved it and reported applying it. See [[DEC-002-public-language]].
 - The user asked for a shared world with independent public wording: neither “other” nor “changing values” should be reused in the bio.
 - A Wiki repository and initial organization-repository push were requested and completed during initialization.
@@ -26,7 +27,7 @@ Six sources are registered with distinct evidence roles: initialization, the ori
 
 [[overview]] introduces the bank-artwork research field. All five [[institutional-directions]] remain assistant proposals. ChatGPT recommends [[future-claims]], but the user has not selected that mechanism in the supplied conversations.
 
-The project code `RS-001`, social handle `@thereserve.rs001`, products, formulas, collateral, default consequences, real-time behavior, and shared monetary infrastructure are not confirmed. See [[Q-001-institutional-scope]].
+The social handle `@thereserve.rs001`, products, formulas, collateral, default consequences, real-time behavior, and shared monetary infrastructure are not confirmed. See [[Q-001-institutional-scope]].
 
 ## Design audit and proposed next scope
 
@@ -55,6 +56,8 @@ The subsequent read-only audit evaluated readiness and proposed target depth, sc
 The proposed next work is **TR-A01**, a concrete comparison of the relationship created by future claims and custody, alongside **TR-A02**, a check of actual cross-work dependencies. Eligibility and contract cases follow that comparison, then a lightweight experience sketch and a production-readiness specification. See [[worldbuilding-roadmap]] for five assignable cards, completion gates, and return paths; [[Q-001-institutional-scope]] retains the decisions that need the user's judgment. No sketch, implementation, issue, or release has been executed by this ingestion.
 
 ## Sources
+
+- [[SRC-2026-09-07-the-reserve-identifier-confirmation]] — [raw/conversations/2026-09-07-the-reserve-identifier-confirmation.md](../raw/conversations/2026-09-07-the-reserve-identifier-confirmation.md)
 
 - [[SRC-2026-09-06-wiki-initialization-request]] — [raw/conversations/2026-09-06-wiki-initialization-request.md](../raw/conversations/2026-09-06-wiki-initialization-request.md)
 - [[SRC-2026-09-06-project-naming-and-public-language]] — [raw/conversations/2026-09-06-project-naming-and-public-language.md](../raw/conversations/2026-09-06-project-naming-and-public-language.md)

@@ -3,6 +3,7 @@ status: unknown
 attribution: llm-synthesis
 updated: 2026-09-07
 sources:
+  - SRC-2026-09-07-the-reserve-identifier-confirmation
   - SRC-2026-09-06-bank-artwork-interpretation
   - SRC-2026-09-06-project-naming-and-public-language
   - SRC-2026-09-06-design-audit-and-roadmap
@@ -11,7 +12,7 @@ sources:
 
 # Institutional Scope and Consequences
 
-The title and bio are settled; the institution's operating role remains open. The following questions consolidate ChatGPT's further questions and the gap between its future-credit recommendation and the later language of remaining and keeping. They are not a user-approved work plan.
+The title, project identifier RS-001, and bio are settled; the institution's operating role remains open. The following questions consolidate ChatGPT's further questions and the gap between its future-credit recommendation and the later language of remaining and keeping. They are not a user-approved work plan.
 
 ## Decisions still needed
 
@@ -26,7 +27,7 @@ The title and bio are settled; the institution's operating role remains open. Th
 
 ## Separate identity follow-up
 
-`RS-001` and `@thereserve.rs001` are assistant recommendations only. The naming export records neither explicit approval nor handle availability. Keep them out of confirmed identity material until supported.
+The user confirmed `RS-001` on 2026-09-07; see [[DEC-001-project-name]]. The social handle `@thereserve.rs001` remains an assistant recommendation without explicit approval or an availability check.
 
 The bank interpretation depends on a missing attached prompt; obtaining it would help establish whether the response faithfully addressed the user's original constraints.
 
@@ -45,6 +46,8 @@ The user requested ingestion of the design audit after its read-only delivery. T
 The audit's normal, refusal, time, exit, and non-performance/correction cases in [[future-claims]] remain incomplete because the present benefit and performance rule are undefined. Do not disguise those missing decisions as intentional mystery. Framework choices can be tested in a sketch before the whole world is settled; no deadline or task-card ID represents completed work or authorization to implement.
 
 ## Sources
+
+- [[SRC-2026-09-07-the-reserve-identifier-confirmation]] — [raw/conversations/2026-09-07-the-reserve-identifier-confirmation.md](../../raw/conversations/2026-09-07-the-reserve-identifier-confirmation.md)
 
 - [[SRC-2026-09-06-bank-artwork-interpretation]] — [raw/conversations/2026-09-06-bank-artwork-interpretation.md](../../raw/conversations/2026-09-06-bank-artwork-interpretation.md)
 - [[SRC-2026-09-06-project-naming-and-public-language]] — [raw/conversations/2026-09-06-project-naming-and-public-language.md](../../raw/conversations/2026-09-06-project-naming-and-public-language.md)

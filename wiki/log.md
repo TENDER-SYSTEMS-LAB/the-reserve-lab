@@ -58,3 +58,7 @@ Append new entries after all existing entries. Do not rewrite past entries.
 Replaced mandatory full-file startup with targeted catalog/page reading and on-demand schema, source, and history lookup. Shortened agent instructions while retaining institutional commit identity and each repository's standing push authorization. Removed the schema's conflicting periodic hash-audit rule: register a new source's hash once, inspect changed raw paths for routine edits, and reserve a complete provenance audit for an explicit request.
 
 Scoped lint and catalog updates to affected material and limited logging to durable results. Kept raw guides procedural and source-registry rows unchanged; registered originals and previous log entries are preserved. Updated only the affected repository-control catalog entries. Git-only work can reuse an unchanged completed review.
+
+## [2026-09-07] decision | Confirm RS-001 — THE RESERVE
+
+Registered the selected approval exchange as SRC-2026-09-07-the-reserve-identifier-confirmation. The user confirmed RS-001 — THE RESERVE and requested README and Wiki updates followed by commits and pushes in both repositories. Updated the relevant public entry point, identity records, current state, and catalog; preserved the earlier proposal history and the unconfirmed social handle and operating model. TENDER SYSTEMS records the active system in its registry; the Lab retains the canonical naming decision.

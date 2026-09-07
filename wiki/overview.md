@@ -3,6 +3,7 @@ status: working
 attribution: llm-synthesis
 updated: 2026-09-07
 sources:
+  - SRC-2026-09-07-the-reserve-identifier-confirmation
   - SRC-2026-09-06-project-naming-and-public-language
   - SRC-2026-09-06-bank-artwork-interpretation
   - SRC-2026-09-06-design-audit-and-roadmap
@@ -13,7 +14,7 @@ sources:
 
 **A place for what remains.**
 
-The project name and public bio are confirmed by the user. See [[DEC-001-project-name]] and [[DEC-002-public-language]].
+The project name, identifier **RS-001**, and public bio are confirmed by the user. See [[DEC-001-project-name]] and [[DEC-002-public-language]].
 
 ## Working field
 
@@ -41,6 +42,8 @@ The bank interpretation rests on one assistant response to a missing attachment.
 The later audit adds a dated synthesis and testable planning proposals, not a new user selection of a mechanism. Its sibling-repository findings are secondary evidence here; the full report records the inspected commits, uncommitted snapshots, and access limits.
 
 ## Sources
+
+- [[SRC-2026-09-07-the-reserve-identifier-confirmation]] — [raw/conversations/2026-09-07-the-reserve-identifier-confirmation.md](../raw/conversations/2026-09-07-the-reserve-identifier-confirmation.md)
 
 - [[SRC-2026-09-06-project-naming-and-public-language]] — [raw/conversations/2026-09-06-project-naming-and-public-language.md](../raw/conversations/2026-09-06-project-naming-and-public-language.md)
 - [[SRC-2026-09-06-bank-artwork-interpretation]] — [raw/conversations/2026-09-06-bank-artwork-interpretation.md](../raw/conversations/2026-09-06-bank-artwork-interpretation.md)

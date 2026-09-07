@@ -3,6 +3,7 @@ status: working
 attribution: llm-proposed
 updated: 2026-09-07
 sources:
+  - SRC-2026-09-07-the-reserve-identifier-confirmation
   - SRC-2026-09-06-design-audit-and-roadmap-request
   - SRC-2026-09-06-design-audit-and-roadmap
   - SRC-2026-09-06-design-audit-ingestion-request
@@ -30,7 +31,7 @@ Implementation findings refer to THE RESERVE `main` at `e2aa812754892db5f3399f3d
 | Currency and quantities | Balances, limits, discount rates, recurring units, TENDER/TDR suggestions | LLM-proposed; no shared currency selected | Display examples D1; quantity meaning unresolved | No ledger, issuance, or settlement found | Separate measurement, balance, claim, and payment instrument |
 | Visitor experience | Apply, assess, receive terms, pass time, observe account change | LLM-proposed | Middle flow partly D2 | No screens, prototype, or participation evidence found | Entry, reason to accept, refusal, withdrawal, return, and ending |
 | Shared world | Institutional expression, operational language, proposed links between works | Supported public-language decisions; operational roles and connections unresolved | Relationships D1; no selected common operating contract | No common account or settlement implementation identified in the report | Which shared promises are necessary for independent participation? |
-| Public expression | THE RESERVE; exact bio; distinct wording; code and handle suggestions | Name and bio confirmed; `RS-001`, handle, and added vocabulary unconfirmed | Confirmed copy usable; service language awaits role | README use checked; profile update only user-reported | Accurate terms, decisions, exposure boundaries, and actual rights |
+| Public expression | THE RESERVE; exact bio; distinct wording; code and handle suggestions | At the audit date, name and bio confirmed; code, handle, and added vocabulary unconfirmed. `RS-001` subsequently confirmed on 2026-09-07; see [[DEC-001-project-name]] | Confirmed copy usable; service language awaits role | README use checked; profile update only user-reported | Accurate terms, decisions, exposure boundaries, and actual rights |
 | Implementation and operation | Wiki, source registry, provenance practices | Repository organization performed; separate from artwork service | Artwork operations unspecified | Inspected tracked files were documentation and management files | Medium, storage, clock, duplicates, recovery, shutdown, and responsibility |
 
 Confirmed copy, alternative models, provenance distinctions, and open questions are usable for the next review. Example amounts, ratings, products, dates, collateral, currencies, and real-time behavior are not an implementation specification. The audit does not support a percentage-complete estimate.
@@ -176,6 +177,8 @@ The existing Wiki preserved institutional alternatives and unresolved consequenc
 The recommendations depend on one audit report. That report's sibling-repository findings are secondary, dated evidence, including uncommitted drafts; consult its §2 evidence map and recheck source repositories before making a new consequential choice. The original bank interpretation still references a missing prompt, and the audit request is a different source. Financial vocabulary here describes proposed artwork rules, not independently verified financial models. Full Korean analysis, inspected commits, evidence links, and detailed caveats remain in the immutable report.
 
 ## Sources
+
+- [[SRC-2026-09-07-the-reserve-identifier-confirmation]] — [raw/conversations/2026-09-07-the-reserve-identifier-confirmation.md](../../raw/conversations/2026-09-07-the-reserve-identifier-confirmation.md)
 
 - [[SRC-2026-09-06-design-audit-and-roadmap-request]] — [raw/documents/2026-09-06-design-audit-and-roadmap-request.md](../../raw/documents/2026-09-06-design-audit-and-roadmap-request.md) — User's audit remit, required distinctions, and excluded real-world services; originally read-only.
 - [[SRC-2026-09-06-design-audit-and-roadmap]] — [raw/documents/2026-09-06-design-audit-and-roadmap.md](../../raw/documents/2026-09-06-design-audit-and-roadmap.md) — §2 evidence/snapshot limits; §3 audit; §§4–5 proposed scope/depth/readiness; §§7–8 sequence and task cards.

@@ -21,7 +21,7 @@ Every Wiki page other than this index is registered exactly once below. Update i
 
 ## Decisions
 
-- [[DEC-001-project-name]] — User selection of THE RESERVE; alternative names and unconfirmed identifiers · `confirmed` (2026-09-07)
+- [[DEC-001-project-name]] — Confirmed name THE RESERVE and identifier RS-001; naming evolution and unconfirmed handles · `confirmed` (2026-09-07)
 - [[DEC-002-public-language]] — Approved bio and distinct wording across works · `confirmed` (2026-09-07)
 
 ## Questions
@@ -30,7 +30,7 @@ Every Wiki page other than this index is registered exactly once below. Update i
 
 ## Current State
 
-- [[current-state]] — Confirmed identity, ingested audit, proposed next scope and work, and evidence limits · `working` (2026-09-07)
+- [[current-state]] — Confirmed name and RS-001 identifier, ingested audit, proposed next scope and work, and evidence limits · `working` (2026-09-07)
 
 ## Activity
 
@@ -38,7 +38,7 @@ Every Wiki page other than this index is registered exactly once below. Update i
 
 ## Repository Control
 
-- [README](../README.md) — Project and repository entry point (2026-09-06)
+- [README](../README.md) — Public title, bio, RS-001 affiliation, and overview/archive links (2026-09-07)
 - [AGENTS](../AGENTS.md) — Task-sized reading, scoped verification, source preservation, institutional Git identity, and standing push authorization (2026-09-07)
 - [Schema](../schema.md) — On-demand page structure, attribution, provenance, catalog, and maintenance reference (2026-09-07)
 - [Raw README](../raw/README.md) — New-source registration, immutable originals, and targeted lookup guidance (2026-09-07)
