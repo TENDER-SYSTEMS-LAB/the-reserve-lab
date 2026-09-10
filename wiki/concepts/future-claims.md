@@ -1,8 +1,10 @@
 ---
 status: working
 attribution: llm-proposed
-updated: 2026-09-07
+updated: 2026-09-10
 sources:
+  - SRC-2026-09-10-r-token-issuance-and-protocol-drafts
+  - SRC-2026-09-09-currency-value-supply-and-velocity
   - SRC-2026-09-06-bank-artwork-interpretation
   - SRC-2026-09-06-design-audit-and-roadmap
 ---
@@ -89,7 +91,16 @@ The audit's trial confines B's use to THE RESERVE; this is a proposed limit, not
 
 The dated LONGING draft described in [[institutional-directions]] includes an unselected funded forecast-claim alternative, so a simple price-versus-credit division is insufficient. That alternative does not oblige practitioners to write letters. A THE RESERVE candidate concerning the visitor's own future performance must be compared on its parties, obligations, and effects; merely forecasting the same aggregate practice would overlap. No LONGING clearing trust has been selected as THE RESERVE's role.
 
+## Evolution — R denomination does not select a credit contract
+
+The later [[DEC-003-currency-and-circulation-direction]] establishes a bank/currency direction and declining supply/velocity. The earlier recommendation to leave issuance in the background is therefore historical, not the full current design scope. [[r-monetary-protocol]] now proposes an R base-money layer, while deposits, lending, collateral, and default remain a future banking specification.
+
+Those drafts permit R-denominated claims without additional base-money minting, but do not supply this candidate's missing present benefit, eligible future performance, or reciprocal institutional duty. Future Claims Bank remains unadopted. The user's explicit correction toward storing/accumulating R supersedes the intervening reduced-deposit narrative; it does not prove increased borrowing or select a rate formula.
+
 ## Sources
 
 - [[SRC-2026-09-06-bank-artwork-interpretation]] — [raw/conversations/2026-09-06-bank-artwork-interpretation.md](../../raw/conversations/2026-09-06-bank-artwork-interpretation.md)
 - [[SRC-2026-09-06-design-audit-and-roadmap]] — [raw/documents/2026-09-06-design-audit-and-roadmap.md](../../raw/documents/2026-09-06-design-audit-and-roadmap.md) — Sections 4–6; candidate tests, meanings of currency, cross-work limits, and five incomplete interaction cases. These additions are proposals, not user-selected rules.
+
+- [[SRC-2026-09-09-currency-value-supply-and-velocity]] — [raw/conversations/2026-09-09-currency-value-supply-and-velocity.md](../../raw/conversations/2026-09-09-currency-value-supply-and-velocity.md)
+- [[SRC-2026-09-10-r-token-issuance-and-protocol-drafts]] — [raw/conversations/2026-09-10-r-token-issuance-and-protocol-drafts.md](../../raw/conversations/2026-09-10-r-token-issuance-and-protocol-drafts.md)

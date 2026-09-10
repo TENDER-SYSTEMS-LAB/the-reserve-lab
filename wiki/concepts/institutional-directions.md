@@ -1,8 +1,10 @@
 ---
 status: working
 attribution: llm-proposed
-updated: 2026-09-07
+updated: 2026-09-10
 sources:
+  - SRC-2026-09-10-r-token-issuance-and-protocol-drafts
+  - SRC-2026-09-09-currency-value-supply-and-velocity
   - SRC-2026-09-06-bank-artwork-interpretation
   - SRC-2026-09-06-design-audit-and-roadmap
 ---
@@ -59,7 +61,16 @@ The audit inspected THE RESERVE at `e2aa812754892db5f3399f3d53aa7041d2faff96`, O
 
 Single-source dependency: the original five mechanisms come from one assistant response. Its referenced prompt attachment is missing, so the original assignment and any prior constraints cannot be reconstructed as user decisions. The later audit critiques and compares these proposals but does not supply the missing prompt or independently validate their financial explanations.
 
+## Evolution — bank and currency direction after the audit
+
+The user now explicitly wants a bank role with a currency and chooses fixed unit value, declining supply, and declining velocity; see [[DEC-003-currency-and-circulation-direction]]. The original five alternatives remain unselected as operating contracts. The newer [[r-monetary-protocol]] proposes a monetary institution with treasury and observation functions, plus a separate future banking layer. This brings issuance into active design discussion rather than keeping it solely as background.
+
+The user envisages Reserve denomination for LONGING assets; ChatGPT proposes dividing asset valuation from the monetary unit and its system. This extends the dated audit's evidence but does not settle another Lab's pricing model, actual cross-work acceptance, shared accounts, or settlement. No sibling repository was modified by this ingestion.
+
 ## Sources
 
 - [[SRC-2026-09-06-bank-artwork-interpretation]] — [raw/conversations/2026-09-06-bank-artwork-interpretation.md](../../raw/conversations/2026-09-06-bank-artwork-interpretation.md)
 - [[SRC-2026-09-06-design-audit-and-roadmap]] — [raw/documents/2026-09-06-design-audit-and-roadmap.md](../../raw/documents/2026-09-06-design-audit-and-roadmap.md) — Sections 2, 4.2, and 6.1–6.3; dated sibling findings and new comparison proposals.
+
+- [[SRC-2026-09-09-currency-value-supply-and-velocity]] — [raw/conversations/2026-09-09-currency-value-supply-and-velocity.md](../../raw/conversations/2026-09-09-currency-value-supply-and-velocity.md)
+- [[SRC-2026-09-10-r-token-issuance-and-protocol-drafts]] — [raw/conversations/2026-09-10-r-token-issuance-and-protocol-drafts.md](../../raw/conversations/2026-09-10-r-token-issuance-and-protocol-drafts.md)

@@ -1,8 +1,11 @@
 ---
 status: working
 attribution: llm-synthesis
-updated: 2026-09-07
+updated: 2026-09-10
 sources:
+  - SRC-2026-09-10-r-whitepaper-structure-comparison
+  - SRC-2026-09-10-r-token-issuance-and-protocol-drafts
+  - SRC-2026-09-09-currency-value-supply-and-velocity
   - SRC-2026-09-07-the-reserve-identifier-confirmation
   - SRC-2026-09-06-project-naming-and-public-language
   - SRC-2026-09-06-bank-artwork-interpretation
@@ -16,7 +19,27 @@ sources:
 
 The project name, identifier **RS-001**, and public bio are confirmed by the user. See [[DEC-001-project-name]] and [[DEC-002-public-language]].
 
-## Working field
+## Evolution — currency and protocol development
+
+The September 9–10 conversations establish a user-confirmed bank/currency direction: a constant unit value within the artwork, declining total supply and velocity, increasing retention, and no explicit AI terminology on the audience surface. See [[DEC-003-currency-and-circulation-direction]] for the exact approval boundaries and corrected behavioral premise. This develops the earlier institutional comparison without selecting the Future Claims Bank operating contract.
+
+Later turns settle the institution itself: within the world THE RESERVE is the central bank and issuing
+authority of R, its mandate is **RESERVE** — to keep what is held — and it operates the banking layer
+itself rather than chartering another institution. A fixed quantity of R was issued once at a point in the past and has only
+decreased since, so R is not a liability and the base is a premise of the world rather than a recurring
+instrument. R's value is falling in that world and destruction is how it is preserved: R spent toward the
+system is burned, while use between people leaves the supply unchanged. Genesis is 17 September 1975 and
+the present supply is about half the original. R exists only within the world; no actual person holds it,
+and the audience observes the monetary system rather than participating in it. The decline is slow at first
+and accelerates, its flows are simulated rather than measured by a generator published outside the work, and
+any deployment is a public ledger of the world's history whose accounts exist only within it. The realized
+history runs beneath that schedule and never rises. The world asserts no dated quantity: it states one
+criterion, a steady decline to roughly 30% remaining fifty years after genesis. See [[DEC-004-monetary-authority-and-authored-decline]] and
+[[DEC-005-monetary-unit-banking-layer-and-mandate]].
+
+The user then requests R protocol drafting and whitepaper development. [[r-monetary-protocol]] records the proposed treasury-based retirement, base-money/banking separation, and observational model. [[r-whitepaper-development]] records the English draft and later comparative outline. Their technical choices and experimental parameters remain unadopted; no implementation or issuance evidence is supplied. The September 6 readiness assessment above is historical, not the current limit of documented design.
+
+## Earlier working field
 
 The supplied conversations explore a bank artwork through custody, trust, credit, obligations, and guarantees. ChatGPT's strongest recommendation is an institution that assesses future claims and turns eligible promises into present credit. This is a candidate direction, not an adopted operating model.
 
@@ -49,3 +72,7 @@ The later audit adds a dated synthesis and testable planning proposals, not a ne
 - [[SRC-2026-09-06-bank-artwork-interpretation]] — [raw/conversations/2026-09-06-bank-artwork-interpretation.md](../raw/conversations/2026-09-06-bank-artwork-interpretation.md)
 - [[SRC-2026-09-06-design-audit-and-roadmap]] — [raw/documents/2026-09-06-design-audit-and-roadmap.md](../raw/documents/2026-09-06-design-audit-and-roadmap.md) — Sections 1–4; readiness findings and proposed design boundary.
 - [[SRC-2026-09-06-design-audit-and-roadmap-request]] — [raw/documents/2026-09-06-design-audit-and-roadmap-request.md](../raw/documents/2026-09-06-design-audit-and-roadmap-request.md) — User-provided shared-world context and audit constraints, not a mechanism selection.
+
+- [[SRC-2026-09-09-currency-value-supply-and-velocity]] — [raw/conversations/2026-09-09-currency-value-supply-and-velocity.md](../raw/conversations/2026-09-09-currency-value-supply-and-velocity.md)
+- [[SRC-2026-09-10-r-token-issuance-and-protocol-drafts]] — [raw/conversations/2026-09-10-r-token-issuance-and-protocol-drafts.md](../raw/conversations/2026-09-10-r-token-issuance-and-protocol-drafts.md)
+- [[SRC-2026-09-10-r-whitepaper-structure-comparison]] — [raw/conversations/2026-09-10-r-whitepaper-structure-comparison.md](../raw/conversations/2026-09-10-r-whitepaper-structure-comparison.md)

@@ -1,8 +1,11 @@
 ---
 status: working
 attribution: llm-proposed
-updated: 2026-09-07
+updated: 2026-09-10
 sources:
+  - SRC-2026-09-10-r-whitepaper-structure-comparison
+  - SRC-2026-09-10-r-token-issuance-and-protocol-drafts
+  - SRC-2026-09-09-currency-value-supply-and-velocity
   - SRC-2026-09-07-the-reserve-identifier-confirmation
   - SRC-2026-09-06-design-audit-and-roadmap-request
   - SRC-2026-09-06-design-audit-and-roadmap
@@ -176,6 +179,14 @@ The existing Wiki preserved institutional alternatives and unresolved consequenc
 
 The recommendations depend on one audit report. That report's sibling-repository findings are secondary, dated evidence, including uncommitted drafts; consult its §2 evidence map and recheck source repositories before making a new consequential choice. The original bank interpretation still references a missing prompt, and the audit request is a different source. Financial vocabulary here describes proposed artwork rules, not independently verified financial models. Full Korean analysis, inspected commits, evidence links, and detailed caveats remain in the immutable report.
 
+## Evolution — September 10 monetary and writing work
+
+The audit's tables and TR-A01–TR-A05 cards above retain their September 6 scope and proposal status. They are not evidence that currency remains unchosen today or that TR-A01 is the only next task. [[DEC-003-currency-and-circulation-direction]] now records confirmed monetary world constraints, and the user has commissioned R protocol and whitepaper drafting. Issuance has become an active subject, one of the audit's explicit reasons to revisit an institution-only scope.
+
+[[r-monetary-protocol]] preserves the delivered proposals and their unresolved release, reserve, velocity, authority, and banking rules. [[r-whitepaper-development]] records the latest proposed writing step: draft Sections 1–4 against the later outline to expose missing definitions. That suggestion has not been executed or adopted as a full new roadmap. TR-A01's present-benefit/responsibility test remains useful for release and banking interactions; it is not a prerequisite already chosen by the user for the entire monetary research path.
+
+The new conversations demonstrate design and writing work, not implementation, a selected production network, deployment approval, or an executed readiness gate. Future work should reconcile the confirmed direction with the proposed protocol and review cross-work denomination before assuming common accounts or settlement.
+
 ## Sources
 
 - [[SRC-2026-09-07-the-reserve-identifier-confirmation]] — [raw/conversations/2026-09-07-the-reserve-identifier-confirmation.md](../../raw/conversations/2026-09-07-the-reserve-identifier-confirmation.md)
@@ -183,3 +194,7 @@ The recommendations depend on one audit report. That report's sibling-repository
 - [[SRC-2026-09-06-design-audit-and-roadmap-request]] — [raw/documents/2026-09-06-design-audit-and-roadmap-request.md](../../raw/documents/2026-09-06-design-audit-and-roadmap-request.md) — User's audit remit, required distinctions, and excluded real-world services; originally read-only.
 - [[SRC-2026-09-06-design-audit-and-roadmap]] — [raw/documents/2026-09-06-design-audit-and-roadmap.md](../../raw/documents/2026-09-06-design-audit-and-roadmap.md) — §2 evidence/snapshot limits; §3 audit; §§4–5 proposed scope/depth/readiness; §§7–8 sequence and task cards.
 - [[SRC-2026-09-06-design-audit-ingestion-request]] — [raw/conversations/2026-09-06-design-audit-ingestion-request.md](../../raw/conversations/2026-09-06-design-audit-ingestion-request.md) — Subsequent authorization to ingest the report; no explicit selection of its institutional or operating recommendations.
+
+- [[SRC-2026-09-09-currency-value-supply-and-velocity]] — [raw/conversations/2026-09-09-currency-value-supply-and-velocity.md](../../raw/conversations/2026-09-09-currency-value-supply-and-velocity.md)
+- [[SRC-2026-09-10-r-token-issuance-and-protocol-drafts]] — [raw/conversations/2026-09-10-r-token-issuance-and-protocol-drafts.md](../../raw/conversations/2026-09-10-r-token-issuance-and-protocol-drafts.md)
+- [[SRC-2026-09-10-r-whitepaper-structure-comparison]] — [raw/conversations/2026-09-10-r-whitepaper-structure-comparison.md](../../raw/conversations/2026-09-10-r-whitepaper-structure-comparison.md)
